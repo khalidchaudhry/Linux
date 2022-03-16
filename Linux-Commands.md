@@ -1,7 +1,7 @@
 Linux Commands
 ============
-#### . refers to the current directory
-#### . . refers to the parent directory
+### . refers to the current directory
+### . . refers to the parent directory
  
 _A list of my commonly used Linux commands_
 ### Navigation
