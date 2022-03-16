@@ -11,4 +11,4 @@ _A list of my commonly used Linux commands_
 | `ls` |  list files/directories(aka folders) in the current directory|
 | `cd ..` |  move to parent directory of current directory
 | `cd /` | move to the root directory
-| `cd -` | Takes to the previous working directory
+| `cd -` | move to the previous working directory
