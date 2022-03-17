@@ -14,14 +14,20 @@ _A list of my commonly used Linux commands_
 | Command | Description |
 | ------- | ----------- |
 | `pwd` | print working/current directory |
-| `ls` |  list files/directories(aka folders) in the current directory|
+| `ls` |  list files/directories(aka folders) in current directory|
 | `ls /` |  list files/directories(aka folders) of the root directory|
-| `ls ~` |  list files/directories(aka folders) of the user home directory|
-| `ls ..` |  list files/directories(aka folders) of the current parent directory|
+| `ls ~` |  list files/directories(aka folders) of user home directory|
+| `ls ..` |  list files/directories(aka folders) of parent directory of current directory|
+| `ls -a` |  list files/directories(aka folders) of current directory including hidden files/directories|
+| `ls -l` |  long listing of files/directories of current directory|
+| `ls -t` |  list files/folders sorted by modification date descending|
+| `ls -r` |  list files/folders in reversed fashion|
+| `ls -R` |  list the contents of a directory and all its subdirectories|
+
 ### Create soft and hard links
 | Command | Description |
 | ------- | ----------- |
-| `ls -i` |shows the i-node number of files/directories in the current directory|
+| `ls -i` |shows the index node number of files/directories in the current directory|
 | `ls -i /` |shows the i-node number of files/directories in the root directory|
 | `ls -s <original file/directory> <soft file/directory>` | Create soft link file/directory for original file/directory.|
 | `ls <original file> <hard file>` | Create hard link for file for original file.**Not supported for directories**|
