@@ -32,5 +32,13 @@ _A list of my commonly used Linux commands_
 | `ls -s <original file/directory> <soft file/directory>` | Create soft link file/directory for original file/directory.|
 | `ls <original file> <hard file>` | Create hard link for file for original file.**Not supported for directories**|
 
-
-
+### Working with files
+| Command | Description |
+| ------- | ----------- |
+| `touch <filename>` | creates the file. **If file exists than it will change its timestamp**|
+| `touch <filename1> <file2> <file3>` | creates the file1,file2 and file3|
+| `mkdir <directoryname>` | creates the directory|
+| `mkdir <directoryname1> <directoryname2> <directoryname3>` | Will create three directories|
+| `rmdir <directoryname>` | removes the directory only **if it is empty**|
+| `rm    <file/directoryname>` | removes the file/directory only **if directory is empty**|
+| `rm -R/r <file/directoryname>` | removes the file/directory no matter if directory is empty or not.`R is case insensitive`|
