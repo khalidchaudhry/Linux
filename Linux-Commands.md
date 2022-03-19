@@ -42,3 +42,10 @@ _A list of my commonly used Linux commands_
 | `rmdir <directoryname>` | removes the directory only **if it is empty**|
 | `rm    <file/directoryname>` | removes the file/directory only **if directory is empty**|
 | `rm -R/r <file/directoryname>` | removes the file/directory no matter if directory is empty or not.`R is case insensitive`|
+| `cp <file1> <file2>` |Make a copy of file1 named as file2 |
+| `cp -R <dir1> <dir2>` |Make a copy of dir1 named named as dir2.**R stands for recursive**|
+| `cp <file1> <file1> <destination>` | copy multiple files into destination directory.*destination directory must exist*|
+| `cp -R <dir1> <dir2> <destination>` | copy multiple directories into destination directory.*destination directory must exist*| 
+| `mv <file1/dir1> <file2/dir2>` |This is will rename file1/dir1 to file2/dir2 |
+| `mv file1 file2 ..... destination` |This will move multiple files to destination directory.The directory must exist|
+
